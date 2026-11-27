@@ -74,7 +74,9 @@ function SiteHeader() {
           <LanguageToggle value={locale} onValueChange={setLocale} />
 
           <a
-            href="#contato"
+            href={content.nav.resumeHref}
+            target="_blank"
+            rel="noreferrer"
             className={cn(
               buttonVariants({ variant: "default", size: "sm" }),
               "hidden font-semibold sm:inline-flex",
@@ -132,7 +134,9 @@ function SiteHeader() {
                   render={(props) => (
                     <a
                       {...props}
-                      href="#contato"
+                      href={content.nav.resumeHref}
+                      target="_blank"
+                      rel="noreferrer"
                       className={cn(
                         buttonVariants({ variant: "default", size: "default" }),
                         "w-full font-semibold",

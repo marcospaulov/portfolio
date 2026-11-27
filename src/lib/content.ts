@@ -16,6 +16,7 @@ export interface PortfolioContent {
     certifications: string;
     contact: string;
     downloadResume: string;
+    resumeHref: string;
     openMenu: string;
     menuTitle: string;
     menuDescription: string;
@@ -137,6 +138,8 @@ export const portfolioContent: Record<Locale, PortfolioContent> = {
       certifications: "Certificados",
       contact: "Contato",
       downloadResume: "Download Currículo",
+      resumeHref:
+        "https://drive.google.com/file/d/15p12pUQnC8RRMpiqZqmaiKY612wmKg6J/view?usp=sharing",
       openMenu: "Abrir menu de navegação",
       menuTitle: "Navegação",
       menuDescription: "Acesse rapidamente qualquer seção do portfólio.",
@@ -343,6 +346,8 @@ export const portfolioContent: Record<Locale, PortfolioContent> = {
       certifications: "Certifications",
       contact: "Contact",
       downloadResume: "Download Resume",
+      resumeHref:
+        "https://drive.google.com/file/d/15p12pUQnC8RRMpiqZqmaiKY612wmKg6J/view?usp=sharing",
       openMenu: "Open navigation menu",
       menuTitle: "Navigation",
       menuDescription: "Jump quickly to any section of the portfolio.",
