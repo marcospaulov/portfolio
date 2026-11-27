@@ -6,7 +6,7 @@ function ProfileShowcase({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="profile-showcase"
       className={cn(
-        "relative size-64 rounded-2xl bg-gradient-to-b from-orange-500/40 via-border to-transparent p-1 sm:size-80",
+        "relative size-64 rounded-2xl bg-linear-to-b from-orange-500/40 via-border to-transparent p-1 sm:size-80",
         className,
       )}
       {...props}
@@ -39,7 +39,7 @@ function ProfileShowcaseScrim({
       aria-hidden="true"
       data-slot="profile-showcase-scrim"
       className={cn(
-        "pointer-events-none absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60",
+        "pointer-events-none absolute inset-0 bg-linear-to-t from-background via-transparent to-transparent opacity-60",
         className,
       )}
       {...props}

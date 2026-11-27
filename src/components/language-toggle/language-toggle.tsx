@@ -60,7 +60,7 @@ function LanguageToggleItem({ className, ...props }: LanguageToggleItemProps) {
     <TabsTrigger
       data-slot="language-toggle-item"
       className={cn(
-        "rounded-[4px] px-2.5 py-1 font-mono text-xs data-active:bg-secondary data-active:text-foreground",
+        "rounded-lg px-2.5 py-1 font-mono text-xs data-active:bg-secondary data-active:text-foreground",
         className,
       )}
       {...props}

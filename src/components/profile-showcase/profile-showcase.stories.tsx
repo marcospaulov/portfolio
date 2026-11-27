@@ -39,7 +39,7 @@ export const Default: Story = {
           <ProfileShowcaseScrim />
           <ProfileShowcaseCaption>
             <span className="font-mono text-xs text-zinc-300">
-              @marcospaulo
+              @marcospaulov
             </span>
             <Badge
               variant="ember"

@@ -11,7 +11,7 @@ type Story = StoryObj<typeof meta>;
 
 export const HeroStats: Story = {
   render: () => (
-    <MetricList className="w-[480px]">
+    <MetricList className="w-120">
       <MetricItem>
         <MetricLabel>Anos de Estudo</MetricLabel>
         <MetricValue>+2</MetricValue>
